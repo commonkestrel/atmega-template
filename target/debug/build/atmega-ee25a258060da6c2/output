@@ -1,0 +1,2 @@
+cargo:warning=AVR_CPU_FREQUENCY_HZ not found, defaulting to 16MHz
+cargo:rerun-if-env-changed=AVR_CPU_FREQUENCY_HZ
