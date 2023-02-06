@@ -1,1 +1,0 @@
-{"rustc":14325214012427317656,"features":"","target":0,"profile":0,"path":0,"deps":[[756182128802547352,"build_script_build",false,8175542366823299456]],"local":[{"RerunIfEnvChanged":{"var":"AVR_CPU_FREQUENCY_HZ","val":null}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

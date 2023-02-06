@@ -1,1 +1,0 @@
-pub const CPU_FREQUENCY: u64 = 16000000;
