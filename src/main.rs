@@ -18,7 +18,7 @@ fn setup() -> State {
 }
 
 /// Equivalent to the `loop` function in the Arduino language
-fn run(state: &mut State) {
+fn run(_state: &mut State) {
     // Toggle pin 9
     digital_toggle(Pin::D9);
     // Wait 1 second
