@@ -1,5 +1,5 @@
 [conditional.'crate_type == "lib"']
-ignore = [ "src/main.rs" ]
+ignore = [ "src/main.rs", "Cargo.lock" ]
 
 [conditional.'crate_type == "bin"']
-ignore = [ "src/lib.rs" ]
+ignore = [ "src/lib.rs", "Cargo.lock" ]
