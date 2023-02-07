@@ -6,5 +6,15 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[profile.dev]
+opt-level = 2
+lto = true
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+opt-level = "z"
+
 [dependencies]
 atmega = { git = "https://github.com/commonkestrel/atmega" }
