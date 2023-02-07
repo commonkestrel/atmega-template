@@ -1,3 +1,5 @@
+#![no_std]
+
 use atmega::prelude::*;
 
 pub fn init_button(pin: Pin) {

@@ -1,4 +1,9 @@
+#![no_std]
+#![no_main]
+
 use atmega::prelude::*;
+
+run!(setup, run)
 
 struct State {
 
